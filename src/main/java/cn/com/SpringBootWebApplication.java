@@ -19,6 +19,7 @@ public class SpringBootWebApplication extends SpringBootServletInitializer {
     public static void main(String[] args) throws Exception {
         System.out.println("----------4444444444444444----22222222222222222222-");
 
+
         SpringApplication.run(SpringBootWebApplication.class, args);
     }
 
