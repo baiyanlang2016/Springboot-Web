@@ -14,7 +14,7 @@ import java.util.Map;
 public class IndexController {
 
     @Value("${application.message:Hello World}")
-    private String message = "Hel World";
+    private String message = "Hell World";
 
     @RequestMapping("/")
     public String welcome(Map<String, Object> model) {
